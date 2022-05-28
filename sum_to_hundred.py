@@ -5,7 +5,8 @@ def sum_to_hundred(): # main function
     return recursion(0, destination=100)
 
 
-def recursion(n, destination = 100):
+def recursion(n, destination):
+    # My solution
     return (n if n == destination else n + recursion(n+1, destination=destination))
 
 
