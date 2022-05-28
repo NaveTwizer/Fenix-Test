@@ -4,6 +4,7 @@
 # Find the youngest sibling from a given dictionary of { name : age}
 
 def find(dict1: dict):
+    # my solution
     return min(
         dict1, key=dict1.get
     )
