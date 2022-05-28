@@ -3,6 +3,7 @@
 # Find the 2 neighbor numbers in list that makes the biggest multiplication in the list
 
 def neighbor_mul(lst):
+    # פתרון שלי my solution
     return max([
         lst[idx] * lst[idx + 1] for idx in range( len(lst) - 1 )
     ])
